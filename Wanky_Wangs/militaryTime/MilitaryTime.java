@@ -24,15 +24,24 @@ public class MilitaryTime {
 
 	public String getDifference()
 	{
-		if(h1 < h2)
+		int hourDiff = calculateHourDifference();
+		int minDiff = calculateMinuteDifference();
+		if(h2 > h1)
 		{
-			// run if first time in smaller than second time
+			hourDiff = h2 - h1;
+			minDiff = m2 - m1;
 		}
-		else if(h2 < h1)
+		if(minDiff == 60)
 		{
-			// run if second time in smaller than first time
+			minDiff = 0;
+			hourDiff++;
 		}
-		return Integer.toString(calculateHourDifference()) + " / " + Integer.toString(calculateMinuteDifference());
+		else if(minDiff > 60)
+		{
+			hourDiff += Math.round(minDiff/60);
+			minDiff %= 60;
+		}
+		return Integer.toString(hourDiff) + " / " + Integer.toString(minDiff);
 	}
 }
 
