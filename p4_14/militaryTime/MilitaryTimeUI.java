@@ -1,4 +1,4 @@
-package p4_14;
+package militaryTime;
 
 import java.util.Scanner;
 

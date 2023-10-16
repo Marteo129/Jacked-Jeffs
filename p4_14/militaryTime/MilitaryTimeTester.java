@@ -1,4 +1,4 @@
-package p4_14;
+package militaryTime;
 
 public class MilitaryTimeTester {
 	public static void main(String[] args) {
