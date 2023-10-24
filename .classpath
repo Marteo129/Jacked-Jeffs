@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="Wanky_Wangs"/>
 	<classpathentry kind="src" path="p4_14"/>
+	<classpathentry kind="src" path="ap_chapter6"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
 		<attributes>

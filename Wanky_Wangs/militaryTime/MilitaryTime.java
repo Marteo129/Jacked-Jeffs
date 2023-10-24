@@ -1,5 +1,7 @@
 package militaryTime;
 
+import militaryTimeKevin.TimeInterval;
+
 public class MilitaryTime {
 	private int h1,h2,m1,m2;
 	public MilitaryTime(String first, String second)

@@ -1,5 +1,7 @@
 package militaryTime;
 
+import militaryTimeKevin.MilitaryTime;
+
 public class MilitaryTimeTester {
 	public static void main(String[] args) {
 		MilitaryTime mt = new MilitaryTime("1750","0430");  //7:50 to 4:30    10 hrs and 40 minutes
